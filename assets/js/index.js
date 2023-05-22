@@ -1,11 +1,4 @@
-;
-console.log('��Դ��,���ɱ༭��Դ����Ψһ���ص�ַ: http://www.bootstrapmb.com/item/9521 ');
-if (location.href.indexOf('ile:') < 0) {
-    if (location.href.indexOf('mb') < 0) {
-        location.href = 'http://www.bootstrapmb.com/item/9521'
-    }
-};
-'use strict';
+
 
 window.onload = function() {
     var KEYMAP = {
@@ -154,9 +147,3 @@ window.onload = function() {
         if (e.animationName === 'hl') t.classList.remove('vis');
     }, false);
 };;
-console.log('��Դ��,���ɱ༭��Դ����Ψһ���ص�ַ: http://www.bootstrapmb.com/item/9521 ');
-if (location.href.indexOf('ile:') < 0) {
-    if (location.href.indexOf('mb') < 0) {
-        location.href = 'http://www.bootstrapmb.com/item/9521'
-    }
-};
