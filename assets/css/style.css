@@ -51,7 +51,7 @@ textarea {
 
 p {
     font-size: 16px;
-    line-height: 38px;
+    line-height: 27px;
 }
 
 a {
@@ -87,9 +87,6 @@ h6 {
     margin-bottom: 30px;
 }
 
-.h1-title span {
-    text-decoration: underline;
-}
 
 .h2-title {
     font-size: 42px;
@@ -149,11 +146,11 @@ h6 {
 
 :root {
     --primary-color: #B46060;
-    --secondary-color: #e68176;
+    --secondary-color: #B46060;
     --light-bg: #FFF4E0;
     --light-bg2: #f9ebd0;
     --body-bg: #fff9ef;
-    --dark-color: #bb764e;
+    --dark-color: #B46060;
     --white-color: #fffaf1;
     --red-color: #D91919;
     --gradient-color: linear-gradient(to bottom, rgba(255, 249, 239, 1) 55%, rgba(255, 255, 255, 0) 95%);
@@ -956,7 +953,6 @@ textarea.form-input {
 
 .project-img {
     width: 100%;
-    height: 36vw;
     min-height: 320px;
     max-height: 540px;
     background-size: cover;
@@ -1012,7 +1008,8 @@ textarea.form-input {
 }
 
 .project-box-right-part {
-    padding-left: 2vw;
+    padding-left: 3vw;
+    padding-right: 1vw;
     padding-top: 89px;
     grid-area: gallery-caption;
     min-width: 246px;
@@ -1021,9 +1018,9 @@ textarea.form-input {
 
 .project-row .project-box:nth-child(even) .project-box-right-part {
     padding-right: 2vw;
-    padding-left: 0;
+    padding-left: 2vw;
     padding-top: 0;
-    padding-bottom: 89px;
+    padding-bottom: 0;
 }
 
 /*==========Project CSS End==========*/
@@ -1173,7 +1170,7 @@ textarea.form-input {
 }
 
 .count-text {
-    margin: 15px 0;
+    margin: 15px 30%;
 }
 
 .count-text p {
@@ -1190,6 +1187,7 @@ textarea.form-input {
     text-transform: uppercase;
     letter-spacing: 0.5px;
     margin: 0;
+    font-size:20px;
 }
 
 /*========== Count Section CSS End==========*/
@@ -1199,10 +1197,11 @@ textarea.form-input {
 .reviews-box {
     display: flex;
     align-items: self-start;
+    flex-wrap:wrap;
 }
 
 .reviews-text {
-    padding-left: 30px;
+    padding-left: 41px;
 }
 
 .reviews-text h4 {
@@ -1474,7 +1473,7 @@ textarea.form-input {
 }
 
 .footer-navigation ul {
-    column-count: 2;
+    column-count: 1;
 }
 
 .footer-navigation ul li a {
@@ -1484,7 +1483,7 @@ textarea.form-input {
 }
 
 .footer-navigation ul li {
-    margin-bottom: 25px;
+    margin-bottom: -6px;
 }
 
 .footer-info-part .footer-title {
@@ -1785,7 +1784,7 @@ textarea.form-input {
     }
     .h2-title {
         font-size: 34px;
-        line-height: 44px;
+        line-height: 54px;
     }
     .footer-title {
         font-size: 26px;
@@ -1907,7 +1906,7 @@ textarea.form-input {
         align-items: center;
     }
     .site-header.sticky_head .header-logo {
-        width: 80px;
+        width: 160px;
     }
     .header-logo img {
         width: 100%;
