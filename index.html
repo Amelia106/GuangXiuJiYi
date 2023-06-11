@@ -90,6 +90,9 @@
                     </div>
                 </div>
             </div>
+            <div style="display: flex;justify-content: center;margin-bottom: 4%;margin-top: -1%;">
+                <h3 class="h3-title">看看广绣传承人是怎么谈广绣的</h3>
+            </div>
             <div class="reviews-slider-row wow fadeup-animation" data-wow-duration="1s" data-wow-delay="0.3s">
                 <div class="reviews-slider">
                     <div class="swiper-wrapper">
@@ -203,9 +206,146 @@
                         </div>
                         <div class="reviews-box swiper-slide">
                             <img width="60" height="50" src="https://amelia106.github.io/GuangXiuJiYi/assets/images/left-quote.svg" alt="left-quote">
+                            <div id="videoBtn" style="max-width:50%;">
+                                <video controls="false"  muted="muted" id="video1" name="media" style="max-width: 140%;display: flex;justify-content: center;align-content: center;flex-wrap: nowrap;align-items: center;margin-left: 29px;margin-top: 60px;">
+                                    <source src="https://amelia106.github.io/GuangXiuJiYi/assets/images/gxhs.mp4" type="video/mp4">
+                                </video>
+                            <script>
+                                var myVideo = document.getElementById("video1");
+                                var videoBtn = document.getElementById("videoBtn");
+                                myVideo.loop = true
+                                videoBtn.onmouseleave = function () {
+                                    myVideo.pause();
+                                }
+                                videoBtn.onmousemove = function () {
+                                    myVideo.play();
+                                }
+                                function getVideoTime() {
+                                    if (document.getElementById('video1')) {
+                                        let videoPlayer = document.getElementById('video1');
+                                        videoPlayer.addEventListener('timeupdate', function () {
+                                            console.log(`当前的时间点是${videoPlayer.currentTime},视频长度是${videoPlayer.duration}`);
+                                            if (videoPlayer.currentTime > 11) {
+                                                myVideo.pause();
+                                                videoPlayer.currentTime = 0
+                                            }
+                                        }, false)
+                                    }
+                                }
+                                getVideoTime();
+                            </script>
+                            </div>
                             <div class="reviews-text">
-                                <p style="font-weight: bolder;">某传承人的评论</p>
-                                <h4>XXX——关于广绣xx</h4>
+                                <p style="font-weight: bolder;">在以前（广绣未列入国家非遗名单时），我们过年的时候做一个花市的展示，很多市民以为是国画或者照片，没人知道那是广绣。</p>
+                                <h4>梁可维——花市广绣无人识</h4>
+                            </div>
+                        </div>
+                        <div class="reviews-box swiper-slide">
+                            <img width="60" height="50" src="https://amelia106.github.io/GuangXiuJiYi/assets/images/left-quote.svg" alt="left-quote">
+                            <div id="videoBtn" style="max-width:50%;">
+                                <video controls="false"  muted="muted" id="video1" name="media" style="max-width: 140%;display: flex;justify-content: center;align-content: center;flex-wrap: nowrap;align-items: center;margin-left: 29px;margin-top: 60px;">
+                                    <source src="https://amelia106.github.io/GuangXiuJiYi/assets/images/zgdp.mp4" type="video/mp4">
+                                </video>
+                            <script>
+                                var myVideo = document.getElementById("video1");
+                                var videoBtn = document.getElementById("videoBtn");
+                                myVideo.loop = true
+                                videoBtn.onmouseleave = function () {
+                                    myVideo.pause();
+                                }
+                                videoBtn.onmousemove = function () {
+                                    myVideo.play();
+                                }
+                                function getVideoTime() {
+                                    if (document.getElementById('video1')) {
+                                        let videoPlayer = document.getElementById('video1');
+                                        videoPlayer.addEventListener('timeupdate', function () {
+                                            console.log(`当前的时间点是${videoPlayer.currentTime},视频长度是${videoPlayer.duration}`);
+                                            if (videoPlayer.currentTime > 11) {
+                                                myVideo.pause();
+                                                videoPlayer.currentTime = 0
+                                            }
+                                        }, false)
+                                    }
+                                }
+                                getVideoTime();
+                            </script>
+                            </div>
+                            <div class="reviews-text">
+                                <p style="font-weight: bolder;">都是挂画一类的装饰画以及双面绣。</p>
+                                <h4>梁可维——工作室广绣销量最高单品</h4>
+                            </div>
+                        </div>
+                        <div class="reviews-box swiper-slide">
+                            <img width="60" height="50" src="https://amelia106.github.io/GuangXiuJiYi/assets/images/left-quote.svg" alt="left-quote">
+                            <div id="videoBtn" style="max-width:50%;">
+                                <video controls="false"  muted="muted" id="video1" name="media" style="max-width: 140%;display: flex;justify-content: center;align-content: center;flex-wrap: nowrap;align-items: center;margin-left: 29px;margin-top: 60px;">
+                                    <source src="https://amelia106.github.io/GuangXiuJiYi/assets/images/xxjx.mp4" type="video/mp4">
+                                </video>
+                            <script>
+                                var myVideo = document.getElementById("video1");
+                                var videoBtn = document.getElementById("videoBtn");
+                                myVideo.loop = true
+                                videoBtn.onmouseleave = function () {
+                                    myVideo.pause();
+                                }
+                                videoBtn.onmousemove = function () {
+                                    myVideo.play();
+                                }
+                                function getVideoTime() {
+                                    if (document.getElementById('video1')) {
+                                        let videoPlayer = document.getElementById('video1');
+                                        videoPlayer.addEventListener('timeupdate', function () {
+                                            console.log(`当前的时间点是${videoPlayer.currentTime},视频长度是${videoPlayer.duration}`);
+                                            if (videoPlayer.currentTime > 11) {
+                                                myVideo.pause();
+                                                videoPlayer.currentTime = 0
+                                            }
+                                        }, false)
+                                    }
+                                }
+                                getVideoTime();
+                            </script>
+                            </div>
+                            <div class="reviews-text">
+                                <p style="font-weight: bolder;">结合需要使用到广绣的专业如服装，受邀去开讲座，传授广绣相关知识给学生，并开班做一些培训，让他们学以致用。</p>
+                                <h4>梁可维——广绣学校教学</h4>
+                            </div>
+                        </div>
+                        <div class="reviews-box swiper-slide">
+                            <img width="60" height="50" src="https://amelia106.github.io/GuangXiuJiYi/assets/images/left-quote.svg" alt="left-quote">
+                            <div id="videoBtn" style="max-width:50%;">
+                                <video controls="false"  muted="muted" id="video1" name="media" style="max-width: 140%;display: flex;justify-content: center;align-content: center;flex-wrap: nowrap;align-items: center;margin-left: 29px;margin-top: 60px;">
+                                    <source src="https://amelia106.github.io/GuangXiuJiYi/assets/images/gxzb.mp4" type="video/mp4">
+                                </video>
+                            <script>
+                                var myVideo = document.getElementById("video1");
+                                var videoBtn = document.getElementById("videoBtn");
+                                myVideo.loop = true
+                                videoBtn.onmouseleave = function () {
+                                    myVideo.pause();
+                                }
+                                videoBtn.onmousemove = function () {
+                                    myVideo.play();
+                                }
+                                function getVideoTime() {
+                                    if (document.getElementById('video1')) {
+                                        let videoPlayer = document.getElementById('video1');
+                                        videoPlayer.addEventListener('timeupdate', function () {
+                                            console.log(`当前的时间点是${videoPlayer.currentTime},视频长度是${videoPlayer.duration}`);
+                                            if (videoPlayer.currentTime > 11) {
+                                                myVideo.pause();
+                                                videoPlayer.currentTime = 0
+                                            }
+                                        }, false)
+                                    }
+                                }
+                                getVideoTime();
+                            </script>
+                            </div>
+                            <div class="reviews-text">
+                                <p style="font-weight: bolder;">从绣架上面把绣品下架，把布料粘到木板上面把布绷直、用尺子量好尺寸，做一个卡纸卡在挎筐上面用枪钉好，才能把它装裱好。</p>
+                                <h4>梁可维——广绣装裱</h4>
                             </div>
                         </div>
                     </div>
