@@ -47,27 +47,32 @@ textarea {
     color: var(--secondary-color);
     font-size: 16px;
     line-height: 30px;
+    font-family: 'qksj';
 }
 
 p {
     font-size: 16px;
     line-height: 27px;
+    font-family: 'qksj';
 }
 
 a {
     background-color: transparent;
     text-decoration: none !important;
     outline: none !important;
+    font-family: 'qksj';
 }
 
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    font-family: 'qksj';
 }
 
 ol {
     list-style: decimal;
+    font-family: 'qksj';
 }
 
 h1,
@@ -102,6 +107,7 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight:bolder;
 }
 
 .h2-title:after,
@@ -112,11 +118,13 @@ h6 {
     background: var(--primary-color);
     display: inline-block;
     margin-left: 15px;
+    font-weight:bolder;
 }
 
 .h2-title:before {
     margin-right: 15px;
     margin-left: 0;
+    font-weight:bolder;
 }
 
 .h3-title {
@@ -128,6 +136,7 @@ h6 {
 .h4-title {
     font-size: 26px;
     line-height: 36px;
+    font-weight:bolder;
 }
 
 .h5-title {
@@ -149,7 +158,7 @@ h6 {
 
 :root {
     --primary-color: #B46060;
-    --secondary-color: #B46060;
+    --secondary-color: #4d4d4d;
     --light-bg: #FFF4E0;
     --light-bg2: #f9ebd0;
     --body-bg: #fff9ef;
@@ -160,8 +169,8 @@ h6 {
     --box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
     --transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
     --input-color: rgb(77 77 77 / 0.7);
-    --body-font: 'Raleway';
-    --title-font: 'Anton';
+    --body-font: 'qsfj';
+    --title-font: 'zk2';
     --primary-overlay-color: 77, 77, 77;
     --scrollbar-thumb-color: var(--primary-color);
     --scrollbar-track-color: var(--dark-color);
@@ -194,7 +203,7 @@ img {
 }
 
 p a {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     transition: 0.3s;
 }
 
@@ -720,6 +729,7 @@ textarea.form-input {
     height: 100%;
     justify-content: flex-end;
     align-items: center;
+    font-family: 'qsfj';
 }
 
 .main-navigation .menu li {
@@ -727,6 +737,7 @@ textarea.form-input {
     float: left;
     position: relative;
     margin: 0 20px;
+    font-family: 'qsfj';
 }
 
 .main-navigation .menu li:first-child {
@@ -775,9 +786,11 @@ textarea.form-input {
     text-transform: uppercase;
     font-weight: bold;
     opacity: 0.4;
+    font-family: 'qsfj';
 }
 
 .main-navigation .menu li a:after {
+    font-family: 'qsfj';
     content: "";
     position: absolute;
     bottom: 0;
@@ -798,6 +811,7 @@ textarea.form-input {
 .main-navigation .menu li a:hover,
 .main-navigation .menu li .active-menu {
     opacity: 1;
+    font-family: 'qksj';
 }
 
 .main-navigation .menu li a:hover:after,
@@ -806,6 +820,7 @@ textarea.form-input {
     transform: scaleX(1);
     -webkit-transform-origin: left;
     transform-origin: left;
+    font-family: 'qksj';
 }
 
 /*==========Header CSS End==========*/
@@ -813,12 +828,12 @@ textarea.form-input {
 /*==========Banner CSS==========*/
 
 .main-banner {
-    padding: 250px 0 200px;
+    padding: 250px 0 400px;
     background-size: cover;
     background-position: top;
     overflow: hidden;
     min-height: 100vh;
-    position: relative;
+    /*position: relative;*/
 }
 
 .banner-btn .sec-btn {
@@ -1187,6 +1202,7 @@ textarea.form-input {
     -webkit-text-stroke: 2px var(--primary-color);
     font-weight: 600;
     margin-bottom: 16px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .count-text .h3-title {
@@ -1217,10 +1233,11 @@ textarea.form-input {
 }
 
 .reviews-text h4 {
-    font-size: 20px;
+    font-size: 18px;
     text-transform: capitalize;
     line-height: 34px;
     margin: 0;
+    font-weight:bolder;
 }
 
 .reviews-slider {
@@ -1613,8 +1630,8 @@ textarea.form-input {
     cursor: pointer;
     transition: 0.3s;
     position: absolute;
-    top: 180px;
-    right: 2vw;
+    top: 330px;
+    right: 10vw;
     z-index: 98;
 }
 
@@ -1646,6 +1663,58 @@ textarea.form-input {
     opacity: 0;
 }
 
+.loader {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 10px
+}
+
+.five {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid #B46060 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 23px
+}
+
+.five:before {
+    content: "";
+    height: 42px;
+    width: 4px;
+    position: absolute;
+    left: 48px;
+    top: 10px;
+    background: #B46060;
+    border-radius: 2px;
+    transform-origin: 2px 40px;
+    animation: loader5Animation 2s linear infinite
+}
+
+.five:after {
+    content: "";
+    height: 27px;
+    width: 4px;
+    position: absolute;
+    left: 48px;
+    top: 25px;
+    background: #B46060;
+    border-radius: 2px;
+    transform-origin: 2px 25px;
+    animation: loader5Animation 12s linear infinite
+}
+
+@keyframes loader5Animation {
+    0% {
+        tranform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
 /*==========Page Loader CSS End==========*/
 
 /*==========Responsive Start==========*/
@@ -1714,7 +1783,7 @@ textarea.form-input {
         padding-right: 0;
     }
     .h1-title {
-        font-size: 65px;
+        font-size: 77px;
         line-height: 80px;
     }
     
@@ -1922,7 +1991,7 @@ textarea.form-input {
         width: 160px;
     }
     .header-logo img {
-        width: 100%;
+        width: 55%;
     }
 
     .site-header.sticky_head .header-wrapper {

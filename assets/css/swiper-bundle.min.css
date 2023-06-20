@@ -19,6 +19,30 @@
     font-style: normal
 }
 
+@font-face
+{
+    font-family: zk2;
+    src: url('../font/zk2.ttf');
+    font-weight: normal;  
+    font-style: normal;  
+}
+
+@font-face
+{
+    font-family: qksj;
+    src: url('../font/qksj.TTF');
+    font-weight: normal;  
+    font-style: normal; 
+}
+
+@font-face
+{
+    font-family: fzxsbjt;
+    src: url('../font/fzxsbjt.ttf');
+    font-weight: normal;  
+    font-style: normal; 
+}
+
 :root {
     --swiper-theme-color: #007aff
 }
@@ -177,7 +201,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--swiper-navigation-color, var(--swiper-theme-color))
+    color: var(--swiper-navigation-color, var(--swiper-theme-color));
+    font-family: zk2;
 }
 
 .swiper-button-next.swiper-button-disabled,
@@ -189,7 +214,7 @@
 
 .swiper-button-next:after,
 .swiper-button-prev:after {
-    font-family: swiper-icons;
+    font-family: zk2;
     font-size: var(--swiper-navigation-size);
     text-transform: none !important;
     letter-spacing: 0;

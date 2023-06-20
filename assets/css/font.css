@@ -1,0 +1,23 @@
+@font-face
+{
+    font-family: zk2;
+    src: url('../font/zk2.ttf');
+    font-weight: normal;  
+    font-style: normal;  
+}
+
+@font-face
+{
+    font-family: qksj;
+    src: url('../font/qksj.TTF');
+    font-weight: normal;  
+    font-style: normal; 
+}
+
+@font-face
+{
+    font-family: fzxsbjt;
+    src: url('../font/fzxsbjt.ttf');
+    font-weight: normal;  
+    font-style: normal; 
+}
