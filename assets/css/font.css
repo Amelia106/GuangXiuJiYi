@@ -1,7 +1,7 @@
 @font-face
 {
     font-family: zk2;
-    src: url('../font/zk2.ttf');
+    src: url('https://amelia106.github.io/GuangXiuJiYi/assets/font/zk2.ttf');
     font-weight: normal;  
     font-style: normal;  
 }
@@ -9,7 +9,7 @@
 @font-face
 {
     font-family: qksj;
-    src: url('../font/qksj.TTF');
+    src: url('https://amelia106.github.io/GuangXiuJiYi/assets/font/qksj.TTF');
     font-weight: normal;  
     font-style: normal; 
 }
@@ -17,7 +17,7 @@
 @font-face
 {
     font-family: fzxsbjt;
-    src: url('../font/fzxsbjt.ttf');
+    src: url('https://amelia106.github.io/GuangXiuJiYi/assets/font/fzxsbjt.ttf');
     font-weight: normal;  
     font-style: normal; 
 }
